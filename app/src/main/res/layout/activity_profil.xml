@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F9"
+    android:padding="16dp"
+    tools:context=".ProfilActivity">
+
+    <!-- Photo de profil en cercle -->
+    <FrameLayout
+        android:id="@+id/profile_image_container"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#BDBDBD"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JD"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"/>
+    </FrameLayout>
+
+    <!-- Nom de l'utilisateur -->
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ali"
+        android:textSize="22sp"
+        android:textColor="#333333"
+        android:layout_below="@id/profile_image_container"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Email de l'utilisateur -->
+    <TextView
+        android:id="@+id/user_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ali@example.com"
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_below="@id/user_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Button Edit Profile -->
+    <Button
+        android:id="@+id/edit_profile_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Edit Profile"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#4CAF50"
+        android:layout_below="@id/user_email"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Button Log Out -->
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Log Out"
+        android:textSize="18sp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#FF5722"
+        android:layout_below="@id/edit_profile_button"
+        android:layout_marginTop="10dp" />
+
+
+
+</RelativeLayout>
