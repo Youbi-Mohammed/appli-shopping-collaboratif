@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Header Section (optional title or image for the list) -->
+    <item
+        android:id="@+id/header"
+        android:title="Users of this liste"
+        android:enabled="false"
+        android:icon="@android:color/transparent"
+        android:iconifiedByDefault="false"
+        app:showAsAction="never" />
+
+    <!-- List of Users -->
+    <item
+        android:id="@+id/nav_person1"
+        android:title="John Doe"
+        android:icon="@drawable/ic_person1" />
+
+    <item
+        android:id="@+id/nav_person2"
+        android:title="Jane Smith"
+        android:icon="@drawable/ic_person2" />
+
+    <item
+        android:id="@+id/nav_person3"
+        android:title="Mike Johnson"
+        android:icon="@drawable/ic_person3" />
+</menu>
