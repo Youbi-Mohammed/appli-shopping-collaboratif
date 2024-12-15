@@ -11,14 +11,14 @@
         android:id="@+id/fruitVegButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🍎 Fruits &amp; 🥕 Vegetables"
+        android:text="🍎 Fruits et 🥕 Vegetables"
         android:textSize="18sp"
         android:textColor="#000000"
         android:backgroundTint="#9C27B0"
         android:elevation="10dp" />
 
     <Button
-        android:id="@+id/appleButton"
+        android:id="@+id/meatButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="🍖 Meat"
@@ -29,7 +29,7 @@
         android:elevation="10dp" />
 
     <Button
-        android:id="@+id/carrotButton"
+        android:id="@+id/dairyButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="🍼 Dairy Products"
@@ -40,10 +40,10 @@
         android:elevation="10dp" />
 
     <Button
-        android:id="@+id/bananaButton"
+        android:id="@+id/bakeryButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🌶️ Spices"
+        android:text="🥐bakery"
         android:textSize="18sp"
         android:textColor="#000000"
         android:layout_marginTop="10dp"
@@ -51,24 +51,14 @@
         android:elevation="10dp" />
 
     <Button
-        android:id="@+id/grapeButton"
+        android:id="@+id/grainsButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="🥤 Drinks"
+        android:text="🌾grains"
         android:textSize="18sp"
         android:textColor="#000000"
         android:layout_marginTop="10dp"
         android:backgroundTint="#9C27B0"
         android:elevation="10dp" />
 
-    <Button
-        android:id="@+id/pineappleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="🥫 Canned Stuff"
-        android:textSize="18sp"
-        android:textColor="#000000"
-        android:layout_marginTop="10dp"
-        android:backgroundTint="#9C27B0"
-        android:elevation="10dp" />
 </LinearLayout>
