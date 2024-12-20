@@ -1,0 +1,3 @@
+com.example.shopping_collab_project.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

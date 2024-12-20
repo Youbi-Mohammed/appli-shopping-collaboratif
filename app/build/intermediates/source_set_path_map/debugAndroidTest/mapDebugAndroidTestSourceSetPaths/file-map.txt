@@ -1,0 +1,5 @@
+com.example.shopping_collab_project.test.app-core-1.6.1-0 C:\Users\User\.gradle\caches\8.9\transforms\9633e4030fd6e278b9647cd22671f332\transformed\core-1.6.1\res
+com.example.shopping_collab_project.test.app-androidTest-1 C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\build\generated\res\resValues\androidTest\debug
+com.example.shopping_collab_project.test.app-mergeDebugAndroidTestResources-2 C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.shopping_collab_project.test.app-mergeDebugAndroidTestResources-3 C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.shopping_collab_project.test.app-debugAndroidTest-4 C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

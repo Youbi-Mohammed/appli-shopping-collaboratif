@@ -1,4 +1,4 @@
-#Sun Dec 08 12:39:48 WEST 2024
+#Fri Dec 20 17:02:47 WEST 2024
 base.0=C\:\\Users\\User\\AndroidStudioProjects\\Shopping_collab_project\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=C\:\\Users\\User\\AndroidStudioProjects\\Shopping_collab_project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
 base.2=C\:\\Users\\User\\AndroidStudioProjects\\Shopping_collab_project\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex

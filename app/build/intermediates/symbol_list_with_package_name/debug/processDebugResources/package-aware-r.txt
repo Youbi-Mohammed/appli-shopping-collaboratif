@@ -3290,6 +3290,7 @@ id easeInOut
 id easeOut
 id east
 id edge
+id edit_profile_button
 id edit_query
 id edit_text_id
 id elastic
@@ -3364,8 +3365,8 @@ id linear
 id listMode
 id list_item
 id logo
+id logout_button
 id m3_side_sheet
-id main
 id main_layout
 id marquee
 id masked
@@ -3481,6 +3482,7 @@ id pin
 id position
 id postLayout
 id pressed
+id profile_image_container
 id progress_circular
 id progress_horizontal
 id radio
@@ -3613,6 +3615,8 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_email
+id user_name
 id username
 id username_input_layout
 id vertical
