@@ -30,6 +30,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Direct target activities for your buttons -->
+        <activity android:name=".FruitsVegetablesActivity" android:exported="true" />
+        <activity android:name=".MeatActivity" android:exported="true" />
+        <activity android:name=".DairyActivity" android:exported="true" />
+        <activity android:name=".BakeryActivity" android:exported="true" />
+        <activity android:name=".GrainsActivity" android:exported="true" />
+        <activity android:name=".QuantityDialogActivity" android:exported="true"/>
+
     </application>
 
 </manifest>

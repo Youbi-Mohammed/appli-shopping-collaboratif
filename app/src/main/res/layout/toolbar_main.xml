@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    android:background="?android:attr/colorPrimary"
+    android:title="Your App"
+    android:titleTextColor="@android:color/white"
+    android:elevation="4dp">
+
+    <!-- Hamburger Icon -->
+    <ImageButton
+        android:id="@+id/hamburger_button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:contentDescription="Hamburger Menu"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true" />
+
+    <!-- SearchView -->
+    <SearchView
+        android:id="@+id/search_view"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/hamburger_button"
+        android:background="@android:color/white"
+        android:elevation="4dp"
+        android:iconifiedByDefault="false"
+        android:queryHint="What are you looking for?"
+        android:padding="8dp" />
+</androidx.appcompat.widget.Toolbar>
