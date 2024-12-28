@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.example.shopping_collab_project.R;
 
 public class DairyActivity extends AppCompatActivity {
 
@@ -31,12 +32,12 @@ public class DairyActivity extends AppCompatActivity {
         LinearLayout btnIceCream = findViewById(R.id.btn_ice_cream);
 
         // Appliquer les effets de survol et de clic pour chaque bouton
-        applyHoverEffect(btnMilk, "Milk");
-        applyHoverEffect(btnCheese, "Cheese");
-        applyHoverEffect(btnButter, "Butter");
-        applyHoverEffect(btnYogurt, "Yogurt");
-        applyHoverEffect(btnCream, "Cream");
-        applyHoverEffect(btnIceCream, "Ice Cream");
+        applyHoverEffect(btnMilk, "Lait");
+        applyHoverEffect(btnCheese, "Fromage");
+        applyHoverEffect(btnButter, "Beurre");
+        applyHoverEffect(btnYogurt, "Yaourt");
+        applyHoverEffect(btnCream, "Crème");
+        applyHoverEffect(btnIceCream, "Glace");
     }
 
     private void applyHoverEffect(LinearLayout button, final String itemName) {

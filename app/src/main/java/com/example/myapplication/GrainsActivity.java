@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-
+import com.example.shopping_collab_project.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GrainsActivity extends AppCompatActivity {
@@ -25,7 +25,7 @@ public class GrainsActivity extends AppCompatActivity {
         applyHoverEffect(findViewById(R.id.btn_cereals), "Céréales");
         applyHoverEffect(findViewById(R.id.btn_nouilles), "Nouilles");
         applyHoverEffect(findViewById(R.id.btn_flour), "Farine");
-        applyHoverEffect(findViewById(R.id.btn_wheat), "Blé");
+        applyHoverEffect(findViewById(R.id.btn_wheat), "Maïs");
     }
 
     private void applyHoverEffect(LinearLayout button, final String itemName) {

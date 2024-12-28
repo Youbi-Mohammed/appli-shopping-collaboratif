@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
-
+import com.example.shopping_collab_project.R;
 public class lienbutton3 extends AppCompatActivity {
 
     @Override

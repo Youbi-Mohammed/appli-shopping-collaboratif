@@ -7,7 +7,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-
+import com.example.shopping_collab_project.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MeatActivity extends AppCompatActivity {
@@ -29,11 +29,11 @@ public class MeatActivity extends AppCompatActivity {
         LinearLayout btnDuck = findViewById(R.id.btn_dinde);
 
         applyHoverEffect(btnChicken, "Poulet");
-        applyHoverEffect(btnBeef, "Boeuf");
-        applyHoverEffect(btnPork, "Porc");
+        applyHoverEffect(btnBeef, "Bœuf");
+        applyHoverEffect(btnPork, "Saucisse");
         applyHoverEffect(btnFish, "Poisson");
         applyHoverEffect(btnLamb, "Agneau");
-        applyHoverEffect(btnDuck, "Canard");
+        applyHoverEffect(btnDuck, "Dinde");
     }
 
     private void applyHoverEffect(LinearLayout button, final String itemName) {

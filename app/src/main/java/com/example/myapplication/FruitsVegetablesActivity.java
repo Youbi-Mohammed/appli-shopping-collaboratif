@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
-
+import com.example.shopping_collab_project.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class FruitsVegetablesActivity extends AppCompatActivity {

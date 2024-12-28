@@ -8,7 +8,7 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import com.example.shopping_collab_project.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class QuantityDialogActivity extends AppCompatActivity {

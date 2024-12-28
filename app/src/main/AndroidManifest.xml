@@ -16,6 +16,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name="com.example.myapplication.ItemSelectedActivity"
+            android:exported="false" />
+        <activity
             android:name=".ProfilActivity"
             android:exported="false" />
         <activity
@@ -30,15 +33,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Direct target activities for your buttons -->
-        <activity android:name=".FruitsVegetablesActivity" android:exported="true" />
-        <activity android:name=".MeatActivity" android:exported="true" />
-        <activity android:name=".DairyActivity" android:exported="true" />
-        <activity android:name=".BakeryActivity" android:exported="true" />
-        <activity android:name=".GrainsActivity" android:exported="true" />
-        <activity android:name=".QuantityDialogActivity" android:exported="true"/>
-
+        <activity
+            android:name="com.example.myapplication.MenuActivity"
+            android:exported="false" /> <!-- Direct target activities for your buttons -->
+        <activity
+            android:name="com.example.myapplication.FruitsVegetablesActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.MeatActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.DairyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.BakeryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.GrainsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.QuantityDialogActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-35:12
-INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-35:12
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-59:12
+INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:2:1-59:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\8.9\transforms\b51fe8a475b3d815e112c5027fffb5c7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\.gradle\caches\8.9\transforms\f1d014793baf6f8fb84908611a4ceb2c\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\User\.gradle\caches\8.9\transforms\362f5261c4844b4ff39c4ab1e2c126c8\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -60,8 +60,8 @@ ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\m
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:7:5-33:19
-INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:7:5-33:19
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:7:5-57:19
+INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:7:5-57:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\8.9\transforms\b51fe8a475b3d815e112c5027fffb5c7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\User\.gradle\caches\8.9\transforms\b51fe8a475b3d815e112c5027fffb5c7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\User\.gradle\caches\8.9\transforms\f1d014793baf6f8fb84908611a4ceb2c\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -102,34 +102,82 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Us
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:9:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:16:9-44
-activity#com.example.shopping_collab_project.ProfilActivity
+activity#com.example.myapplication.ItemSelectedActivity
 ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:19:13-43
-activity#com.example.shopping_collab_project.SignInActivity
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:19:13-74
+activity#com.example.shopping_collab_project.ProfilActivity
 ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:21:9-23:40
 	android:exported
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:23:13-37
 	android:name
 		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:22:13-43
-activity#com.example.shopping_collab_project.MainActivity
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:24:9-32:20
+activity#com.example.shopping_collab_project.SignInActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:24:9-26:40
 	android:exported
-		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:25:13-43
+activity#com.example.shopping_collab_project.MainActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:27:9-35:20
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:28:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:33:27-74
+activity#com.example.myapplication.MenuActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:37:13-66
+activity#com.example.myapplication.FruitsVegetablesActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:39:9-41:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:41:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:40:13-78
+activity#com.example.myapplication.MeatActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:42:9-44:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:44:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:43:13-66
+activity#com.example.myapplication.DairyActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:45:9-47:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:46:13-67
+activity#com.example.myapplication.BakeryActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:48:9-50:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:50:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:49:13-68
+activity#com.example.myapplication.GrainsActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:51:9-53:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:52:13-68
+activity#com.example.myapplication.QuantityDialogActivity
+ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:54:9-56:39
+	android:exported
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:56:13-36
+	android:name
+		ADDED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml:55:13-76
 uses-sdk
 INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\AndroidManifest.xml

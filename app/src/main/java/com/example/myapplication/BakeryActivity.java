@@ -11,6 +11,8 @@ import android.widget.LinearLayout;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.shopping_collab_project.R;
+
 public class BakeryActivity extends AppCompatActivity {
 
     @Override

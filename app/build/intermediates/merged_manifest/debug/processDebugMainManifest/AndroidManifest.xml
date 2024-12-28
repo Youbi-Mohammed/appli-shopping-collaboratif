@@ -31,6 +31,9 @@
         android:theme="@style/Theme.Shopping_collab_project"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.myapplication.ItemSelectedActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.shopping_collab_project.ProfilActivity"
             android:exported="false" />
         <activity
@@ -45,6 +48,27 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.myapplication.MenuActivity"
+            android:exported="false" /> <!-- Direct target activities for your buttons -->
+        <activity
+            android:name="com.example.myapplication.FruitsVegetablesActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.MeatActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.DairyActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.BakeryActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.GrainsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.example.myapplication.QuantityDialogActivity"
+            android:exported="true" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
