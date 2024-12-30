@@ -5,7 +5,27 @@
       <config />
     </shared>
     <layouts>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_bakery.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_item_selected.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_meat.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_menu.xml">
         <config>
           <theme>@style/Theme.Shopping_collab_project</theme>
         </config>
@@ -15,7 +35,37 @@
           <theme>@style/Theme.Shopping_collab_project</theme>
         </config>
       </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_quantity_dialog.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sign_in.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/buttons_layout.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/content_main.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/item_selected.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/toolbar_main.xml">
+        <config>
+          <theme>@style/Theme.Shopping_collab_project</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/app/src/main/res/menu/menu_nav.xml">
         <config>
           <theme>@style/Theme.Shopping_collab_project</theme>
         </config>
@@ -44,15 +94,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="resourceFile" />
+        <option value="layoutResourceFile_vertical" />
+        <option value="layoutResourceFile" />
         <option value="Class" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="login_branch" />
+        <entry key="$PROJECT_DIR$" value="ali-branch" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -65,7 +117,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Aliou223dev/Shopping_collab.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Youbi-Mohammed/appli-shopping-collaboratif&quot;,
     &quot;accountId&quot;: &quot;cb91b6aa-8f81-4c7d-944f-d741263c8ba1&quot;
   }
 }</component>
@@ -91,9 +143,13 @@
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ali-branch&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/AndroidStudioProjects/appli-shopping-collaboratif&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Dependencies&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -102,6 +158,11 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app\src\main\res\drawable" />
+      <recent name="C:\Users\User\AndroidStudioProjects\Shopping_collab_project" />
+      <recent name="C:\Users\User\AndroidStudioProjects\Shopping_collab_project\app" />
+    </key>
+    <key name="android.template.354091642">
+      <recent name="com.example.myapplication" />
     </key>
     <key name="android.template.1102094518">
       <recent name="com.example.shopping_collab_project" />

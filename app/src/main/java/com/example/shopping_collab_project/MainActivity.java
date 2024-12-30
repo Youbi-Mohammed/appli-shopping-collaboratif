@@ -1,6 +1,7 @@
 package com.example.shopping_collab_project;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,11 +37,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Username= findViewById(R.id.username);
-        Email=findViewById(R.id.email);
-        Password=findViewById(R.id.password);
-        register=findViewById(R.id.register);
-        //redirection vers signIn
+        // Redirection vers la page Sign In
         TextView signInRedirect = findViewById(R.id.signin_link);
         signInRedirect.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,9 +46,14 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        Username= findViewById(R.id.username);
+        Email=findViewById(R.id.email);
+        Password=findViewById(R.id.password);
+        register=findViewById(R.id.register);
+
         // Configure Retrofit
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("https://2a21-105-73-97-232.ngrok-free.app/")
+                .baseUrl("https://926d-102-100-28-134.ngrok-free.app/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
@@ -79,6 +81,10 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(Call<ConnectionResponse> call, Response<ConnectionResponse> response) {
                         if (response.isSuccessful() && response.body() != null) {
                             Toast.makeText(MainActivity.this, "Vous etes enregistré avec succès", Toast.LENGTH_LONG).show();
+                            Intent intent = new Intent(MainActivity.this, SignInActivity.class);
+                            startActivity(intent);
+
+
                         } else {
                             try {
                                 String errorBody = response.errorBody().string(); // Récupérer le corps de l'erreur

@@ -3,12 +3,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.shopping_collab_project"
+    namespace = "com.example.myapplication"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.shopping_collab_project"
-        minSdk = 25
+        applicationId = "com.example.myapplication"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -37,9 +37,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
-    implementation (libs.squareup.retrofit)
-    implementation (libs.converter.gson)
-    implementation (libs.appcompat)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
